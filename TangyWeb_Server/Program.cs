@@ -19,6 +19,11 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+else 
+{
+    app.UseDeveloperExceptionPage(); 
+}
+
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
